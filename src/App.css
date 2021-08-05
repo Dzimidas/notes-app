@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #121212;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +24,33 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+textarea{
+  resize: none;
+  width: 90vw;
+  height: 80vh;
+  background-color: rgb(255, 255, 255, 0.16);
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 8px;
+  border-color: rgb(121, 121, 121);
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.statusLabel{
+  font-size: 15px;
+  padding-left: 10px;
+  color:rgb(160, 160, 160)
+}
+
+button{
+  background-color: rgb(255, 255, 255, .16);
+  color: white;
+  width:60px;
+  height:30px;
+  font-size: 20px;
+}
+
+.saveAndStatus{
+  justify-content: left;
+  padding: 20px;
 }
