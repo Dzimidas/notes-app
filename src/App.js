@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     const data = localStorage.getItem("my-notes");
     if (data) {
-      setNotes(JSON.parse(data));
+      setNotes(data);
       setStatus("saved");
     }
   }, []);
